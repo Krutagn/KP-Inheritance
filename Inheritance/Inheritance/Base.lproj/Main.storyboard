@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="WcN-br-MIp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Child1VC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="child1_VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="child1_VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="968"/>
+        </scene>
+        <!--Child2VC-->
+        <scene sceneID="Gaz-b0-HJ1">
+            <objects>
+                <viewController storyboardIdentifier="child2_VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6uX-Bg-FZp" customClass="child2_VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pVT-8a-Xak">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsy-eH-W8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="968"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="UZI-xj-keW">
+            <objects>
+                <viewController storyboardIdentifier="Main_VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E4k-2I-cup" customClass="Main_VC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xaD-Pd-IGD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lpE-Es-mnI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9kT-RY-Lap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530" y="307"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pN1-VI-8ik">
+            <objects>
+                <navigationController id="WcN-br-MIp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zqL-QD-3mf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="E4k-2I-cup" kind="relationship" relationship="rootViewController" id="KRP-e2-n4U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T47-0R-fF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="307"/>
+        </scene>
+    </scenes>
+</document>
